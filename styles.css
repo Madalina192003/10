@@ -1,0 +1,27 @@
+.hidden {
+  display: none;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cat-info {
+  margin-top: 20px;
+}
+
+.cat-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.loader {
+  margin: 20px 0;
+}
+
+.error {
+  color: red;
+}

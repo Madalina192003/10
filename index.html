@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Finder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slim-select@1.26.1/dist/slimselect.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/notiflix@3.2.5/dist/notiflix-3.2.5.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Cat Finder</h1>
+    <select id="breed-select" class="breed-select"></select>
+    <p class="loader">Loading...</p>
+    <p class="error">Something went wrong!</p>
+    <div class="cat-info"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/slim-select@1.26.1/dist/slimselect.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notiflix@3.2.5/dist/notiflix-3.2.5.min.js"></script>
+
+    <script src="index.js" type="module"></script>
+    <script src="cat-api.js" type="module"></script>
+  </body>
+</html>
